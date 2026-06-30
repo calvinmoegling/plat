@@ -1,0 +1,14 @@
+# Secrets — never commit your real token
+.env
+
+# Local database — this is per-deployment data, not source code
+seymour.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
